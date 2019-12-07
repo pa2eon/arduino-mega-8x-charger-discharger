@@ -206,7 +206,7 @@ void setup()
   {
     String recievedMessage = "";
     recievedMessage = ESP8266.readString(); // Read the incoming data as string
-    // Serial.println(recievedMessage);
+    // Serial.println(recievedMessage); //Remove rem for debugging
   }
 
   Serial.println("Starting...");
@@ -269,7 +269,7 @@ void readSerial()
     String recievedMessage = "";
     int returnInt;
     recievedMessage = ESP8266.readString(); // Read the incoming data as string
-    //Serial.println(recievedMessage);
+    //Serial.println(recievedMessage); // remove rem for debugging
     recievedMessage.trim();
     if (recievedMessage.length() > 1) // Multiple CHAR
     {
