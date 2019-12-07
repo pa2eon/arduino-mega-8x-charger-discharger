@@ -1,4 +1,5 @@
 // This test file is used with Brett Smart 2560 charger / discharger
+// Barcode scanner SuperLead 2200 ( 2D scanner )
 // Changed by Eric Oosterbaan
 
 #include <hidboot.h>
